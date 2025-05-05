@@ -12,7 +12,7 @@ public class WeatherService
 {
 	private static final String apiKey  = "99d4d25b62a0c55d579bf9619f3146be";
 	
-	private static final String api = "https://api.weatherstack.com/current?access_key=99d4d25b62a0c55d579bf9619f3146be&query=BENGALURU";
+	private static final String api = "https://api.weatherstack.com/current?access_key=&query=BENGALURU";
 	
 	@Autowired
 	private RestTemplate restTemplate;
